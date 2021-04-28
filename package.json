@@ -1,6 +1,6 @@
 {
   "name": "stimulus-debug",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "A small Stimulus controller to log events to help with debugging",
   "source": "src/debug_controller.js",
   "main": "dist/debug_controller.js",
