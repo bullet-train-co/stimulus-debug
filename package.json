@@ -1,6 +1,6 @@
 {
   "name": "stimulus-debug",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "A small Stimulus controller to log events to help with debugging",
   "main": "dist/debug_controller.umd.js",
   "module": "dist/debug_controller.js",
