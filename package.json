@@ -1,6 +1,6 @@
 {
   "name": "stimulus-debug",
-  "version": "0.0.1",
+  "version": "0.0.0",
   "description": "A small Stimulus controller to log events to help with debugging",
   "main": "dist/debug_controller.umd.js",
   "module": "dist/debug_controller.js",
@@ -15,11 +15,14 @@
     "build": "$npm_execpath run build:module && $npm_execpath run build:umd",
     "build:module": "mkdir -p dist/ && cp -R src/debug_controller.js dist/",
     "build:umd": "microbundle src/debug_controller.js -f umd --globals stimulus=Stimulus",
-    "clean": "rimraf dist"
+    "clean": "rimraf dist",
+    "prerelease": "$npm_execpath run build",
+    "release": "np"
   },
   "devDependencies": {
     "copy": "^0.3.2",
     "microbundle": "^0.13.0",
+    "np": "^7.5.0",
     "stimulus": ">=1.1.1 <3"
   },
   "peerDependencies": {
