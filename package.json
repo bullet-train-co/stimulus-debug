@@ -4,7 +4,7 @@
   "description": "A small Stimulus controller to log events to help with debugging",
   "source": "src/debug_controller.js",
   "main": "dist/debug_controller.js",
-  "exports": "dist/debug_controller.modern.js",
+  "exports": "./dist/debug_controller.modern.js",
   "module": "dist/debug_controller.module.js",
   "unpkg": "dist/debug_controller.umd.js",
   "amdName": "StimulusDebug",
