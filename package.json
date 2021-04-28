@@ -1,0 +1,10 @@
+{
+  "name": "stimulus-debug",
+  "version": "0.0.1",
+  "description": "A small Stimulus controller to log events to help with debugging",
+  "main": "src/debug_controller.js",
+  "repository": "https://github.com/bullet-train-co/stimulus-debug.git",
+  "author": "@pascallaliberte",
+  "license": "MIT",
+  "private": false
+}
